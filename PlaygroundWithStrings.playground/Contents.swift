@@ -41,6 +41,17 @@ let interpolationMessage = "\(multiplier) times 2.5 is \(Double(multiplier) * 2.
 print(interpolationMessage)
 // Learned how to use string inerpolation to put constants into expressions
 
+let countingCharacters = "Pizza 🍕, Bacon 🥓, Sushi🍣, Donut🍩"
+print("countingCharacters has \(countingCharacters.characters.count) characters")
+var word = "StayInYoLane"
+print ("the number of caters in \(word) is \(word.characters.count)")
+
+word += "\u{301}"  //Combining acute accent, U+301
+
+print ("the number of caters in \(word) is \(word.characters.count)")
+
+
+
 
 
 
