@@ -59,7 +59,7 @@ if randomPhrase == samePhrase {
 let jomeoAndRuliet = [
 "Act 1 Scene 1: Chillin at the crib",
 "Act 1 Scene 2: Playin games at the crib",
-"Act 1 Scene 3: Just doin fun stuff at the crib",
+"Act 1 Scene 3: Wanting to eat at a restaurant",
 "Act 2 Scene 1: Leaving the crib",
 "Act 2 Scene 2: At some restaurant",
 "Act 2 Scene 3: Back to the crib"
@@ -74,6 +74,16 @@ for scene in jomeoAndRuliet{
 
 print ("There are \(act1SceneCount) scenes in Act 1")
 
+var cribCount = 0
+var restaurantCount = 0
+for scene in jomeoAndRuliet{
+    if scene.hasSuffix("crib"){
+        cribCount += 1
+    } else if scene.hasSuffix("restaurant"){
+        restaurantCount += 1
+    }
+}
+print("\(cribCount) crib scenes; \(restaurantCount) restaurant scenes")
 
 
 
