@@ -56,9 +56,23 @@ if randomPhrase == samePhrase {
     print("They really are the same thing!")
 }
 
+let jomeoAndRuliet = [
+"Act 1 Scene 1: Chillin at the crib",
+"Act 1 Scene 2: Playin games at the crib",
+"Act 1 Scene 3: Just doin fun stuff at the crib",
+"Act 2 Scene 1: Leaving the crib",
+"Act 2 Scene 2: At some restaurant",
+"Act 2 Scene 3: Back to the crib"
+]
 
+var act1SceneCount = 0
+for scene in jomeoAndRuliet{
+    if scene.hasPrefix("Act 1"){
+        act1SceneCount += 1
+    }
+}
 
-
+print ("There are \(act1SceneCount) scenes in Act 1")
 
 
 
