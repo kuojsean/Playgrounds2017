@@ -44,11 +44,20 @@ print(interpolationMessage)
 let countingCharacters = "Pizza 🍕, Bacon 🥓, Sushi🍣, Donut🍩"
 print("countingCharacters has \(countingCharacters.characters.count) characters")
 var word = "StayInYoLane"
-print ("the number of caters in \(word) is \(word.characters.count)")
+print ("the number of characters in \(word) is \(word.characters.count)")
 
 word += "\u{301}"  //Combining acute accent, U+301
 
-print ("the number of caters in \(word) is \(word.characters.count)")
+print ("the number of characters in \(word) is \(word.characters.count)")
+
+let randomPhrase = "Whoa! It's the same thing!"
+let samePhrase = "Whoa! It's the same thing!"
+if randomPhrase == samePhrase {
+    print("They really are the same thing!")
+}
+
+
+
 
 
 
