@@ -36,6 +36,11 @@ let constantString = "Macaroni"
 // constant strings cannot be modified
 print(constantString)
 
+let multiplier = 3
+let interpolationMessage = "\(multiplier) times 2.5 is \(Double(multiplier) * 2.5)"
+print(interpolationMessage)
+// Learned how to use string inerpolation to put constants into expressions
+
 
 
 
