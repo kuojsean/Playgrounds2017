@@ -26,6 +26,16 @@ if sampleString.isEmpty {
     print("Get Out!")
 }
 
+var variableString = "Rick"
+variableString += " and Morty"
+//variable String is now "Rick and Morty"
+print(variableString)
+
+let constantString = "Macaroni"
+// constantString += " and cheese"
+// constant strings cannot be modified
+print(constantString)
+
 
 
 
