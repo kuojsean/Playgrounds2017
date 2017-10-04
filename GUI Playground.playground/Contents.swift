@@ -25,3 +25,6 @@ secondView.backgroundColor = .black
 let rectRick = CGRect(x: 4, y: 2, width: 500, height: 100)
 let mortyView = UIView(frame: rectRick)
 mortyView.backgroundColor = .magenta
+
+let firstLabel = UILabel(frame: CGRect(x: 0, y: 0, width: 180, height: 100))
+firstLabel.text = "Label 1"
