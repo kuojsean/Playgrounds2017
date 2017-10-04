@@ -28,3 +28,8 @@ mortyView.backgroundColor = .magenta
 
 let firstLabel = UILabel(frame: CGRect(x: 0, y: 0, width: 180, height: 100))
 firstLabel.text = "Label 1"
+
+let shujaetLabel = UILabel(frame: CGRect(x:0, y: 0, width: 500, height: 75))
+shujaetLabel.center = CGPoint(x: 50, y: 155)
+shujaetLabel.textAlignment = .center
+shujaetLabel.text = "Wow labels are so neat"
