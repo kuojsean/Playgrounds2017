@@ -14,3 +14,14 @@ secondButton.backgroundColor = .magenta
 secondButton.setTitle("My Second Button", for: .normal)
 var tempTwo = secondButton.titleLabel
 secondButton.setTitle("Aw Geez Rick", for: .normal)
+
+let rect = CGRect(x: 10, y: 10, width: 120, height: 120)
+let myView = UIView(frame: rect)
+
+let rectTwo = CGRect(x: 20, y: 20, width: 50, height: 50)
+let secondView = UIView(frame: rectTwo)
+secondView.backgroundColor = .black
+
+let rectRick = CGRect(x: 4, y: 2, width: 500, height: 100)
+let mortyView = UIView(frame: rectRick)
+mortyView.backgroundColor = .magenta
