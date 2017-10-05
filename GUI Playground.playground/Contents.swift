@@ -34,18 +34,27 @@ shujaetLabel.center = CGPoint(x: 50, y: 155)
 shujaetLabel.textAlignment = .center
 shujaetLabel.text = "Wow labels are so neat"
 
+let datePicker = UIDatePicker()
+datePicker.datePickerMode = .date
+let dateFormatter = DateFormatter()
+dateFormatter.dateStyle = .short
+dateFormatter.timeStyle = .none
+dateFormatter.dateFormat = "MMM d, yyyy"
+let fromString = dateFormatter.string(from: datePicker.date)
+print (fromString) // Jan 1, 2017
+
 //let datePicker:UIDatePicker = UIDatePicker()
 //datePicker.grame = CGRect(x: 10, y: 50, width: self.view.frame.width, height: 200)
 //datePicker.timeZone = NSTimeZone.local
 //datePicker.backgroundColor = .red
-////datePicker.addTarget(self, action: self.view.addSubView(datePicker))
-////datepicker.addTarget(self, action: #selector(dateChanged(_:)), for: .valueChanged)
-////func dateChanged(_ sender: UIDatePicker)
-////{
-////    let components = Calendar.current.dateComponents([.year, .month, .day], from: sender.date)
-////    if let day = components.day, let month = components.month, let year = components.year
-////    {
-////        print ("\(day) \(month) \(year)")
-////    }
-////}
+//datePicker.addTarget(self, action: self.view.addSubView(datePicker))
+//datepicker.addTarget(self, action: #selector(dateChanged(_:)), for: .valueChanged)
+//func dateChanged(_ sender: UIDatePicker)
+//{
+//    let components = Calendar.current.dateComponents([.year, .month, .day], from: sender.date)
+//    if let day = components.day, let month = components.month, let year = components.year
+//    {
+//        print ("\(day) \(month) \(year)")
+//    }
+//}
 
